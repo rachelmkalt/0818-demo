@@ -11,10 +11,10 @@ next:
   description: ''
 ---
 > ❗️ Refer to ReadMe's Docs for the latest updates!
-> 
+>
 > Please note that once your team has access to this playground environment, our team will no longer be editing this project, including this page. That means these coming soon updates might be out of date.
-> 
-> For the latest updates, please refer to ReadMe's Feature Compatibility breakdown here: <https://docs.readme.com/main/docs/migration#/feature-compatibility>
+>
+> For the latest updates, please refer to ReadMe's Feature Compatibility breakdown here: [https://docs.readme.com/main/docs/migration#/feature-compatibility](https://docs.readme.com/main/docs/migration#/feature-compatibility)
 
 ## Staging :arrow_right: Branches
 
@@ -26,7 +26,7 @@ If you're curious about Branches, feel free to experiment in this project! You c
 
 ## Global Blocks: Reusable Content and Custom Components
 
-If you've created [Global Reusable Content blocks](https://docs.readme.com/ent/docs/reusable-content-enterprise#/) in your Enterprise Group, your Group may not be an ideal candidate for migrating to Refactored (yet). We currently cannot support migrating existing Global Reusable Content blocks from your legacy Group to your new Refactored Group. However, with the new Refactored experience, Enterprise Group Admins will be able to create new Global Reusable Content blocks _and_ new Global Custom Components.
+If you've created [Global Reusable Content blocks](https://docs.readme.com/ent/docs/reusable-content-enterprise#/) in your Enterprise Group, your Group may not be an ideal candidate for migrating to Refactored (yet). We currently cannot support migrating existing Global Reusable Content blocks from your legacy Group to your new Refactored Group. However, with the new Refactored experience, Enterprise Group Admins will be able to create new Global Reusable Content blocks *and* new Global Custom Components.
 
 Also, this only applies to Group-level Reusable Content blocks. Any Reusable Content blocks created at the child level will migrate over to Refactored, and child projects will also have the Custom Components feature.
 
