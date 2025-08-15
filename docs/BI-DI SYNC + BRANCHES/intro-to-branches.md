@@ -11,18 +11,18 @@ next:
   description: ''
 ---
 > 🚧 Beta
-> 
+>
 > This feature is in active development and may change before final release. Feedback is always appreciated at [beta@readme.com](beta@readme.com).
 
 Branches allow ReadMe Admins to save changes across pages without them going live immediately. With branches, you can continue to edit as you always have! Branches are an optional workflow that offer flexibility in your writing process. Writers use branches to:
 
-- Make changes and review them in a preview environment before they’re live.
-- Send changes to teammates for review.
-- Make changes across multiple pages.
+* Make changes and review them in a preview environment before they’re live.
+* Send changes to teammates for review.
+* Make changes across multiple pages.
 
-> 💁‍♂️ 
-> 
-> **Note:** Additional review options are only available on Enterprise plans.
+<Callout icon="💁‍♂️" theme="default">
+  ### **Note:** Additional review options are only available on Enterprise plans.
+</Callout>
 
 ***
 
@@ -36,21 +36,7 @@ There are three ways to create a branch:
 
 Once your branch is created, you can start writing! Changes will not be live until you merge your branch into a public version.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/66750bb4ffdf062a43e77e2ce1a3bfc6d36a2c6fa670e3968b621159ab7b177a-branches_1.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/66750bb4ffdf062a43e77e2ce1a3bfc6d36a2c6fa670e3968b621159ab7b177a-branches_1.png" />
 
 There are no time limit or expiration on branches. Any admin on your team can view, edit, merge, and delete any branch.
 
@@ -58,29 +44,15 @@ There are no time limit or expiration on branches. Any admin on your team can vi
 
 Once you’re ready for the changes to go live, you can merge from the branch menu:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/51f1614616e3ee1fac70268bd784076acd002ec15809843ee495b576f0a31086-branches_2.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/51f1614616e3ee1fac70268bd784076acd002ec15809843ee495b576f0a31086-branches_2.png" />
 
 On merge, a check will be run to ensure there are no merge conflicts. If there are conflicts that must be resolved, we recommend [resolving the conflicts from GitHub](https://docs.readme.com/main/docs/branches#/handling-conflicts). If your project does not sync with GitHub, you can to ignore the conflict and forcefully merge their changes—with preference to the changes in the branch.
 
 Once merged, your branches are not deleted so you can review the changes before deleting them.
 
-> 💁‍♂️ 
-> 
-> GitHub users can merge a branch into a version too—including via Pull Requests.
+<Callout icon="💁‍♂️" theme="default">
+  ### GitHub users can merge a branch into a version too—including via Pull Requests.
+</Callout>
 
 ***
 
