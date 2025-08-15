@@ -24,10 +24,10 @@ On the following Guides pages you'll find overviews on Refactored's core new fea
 
 This project is entirely yours to explore, add to, and experiment with! While the Guides pages are designed to be informational, they're also fully editable! Additionally, the API Reference section is intentionally left open so that you can try adding an API definition in ReadMe or via GitHub.
 
-- **Play Around with New Features:** This is a great opportunity to get comfortable with the new Editing UI! Make updates in Edit mode, and toggle to View mode to see how they render. Try adding any of our 5 pre-built MDX components or create your own, either in this child project or at the Enterprise Group level.
-- **Set Up a Test API Reference:** Add an API definition via file or upload from the Editing UI, or use our API Designer (the updated Manual Editor!) to create or edit an API definition. You can also connect your ReadMe project with GitHub via bi-directional sync and sync your API definition that way!
-- **Sync Bidirectionally** One of the biggest updates to ReadMe Refactored is Bi-Directional Sync with GitHub, which allows you to make updates to your docs in ReadMe, GitHub, or both, and changes will always be synced bidirectionally. To get started, head to the Git Connection page in the Settings menu of your Editing UI.
-- **Collaborate via Branches** Now you and your team can make changes to this project without impacting each other's work thanks to Branches! Create a branch off this project's main version or another version that you create, and try creating, editing, merging, and deleting branches.
+* **Play Around with New Features:** This is a great opportunity to get comfortable with the new Editing UI! Make updates in Edit mode, and toggle to View mode to see how they render. Try adding any of our 5 pre-built MDX components or create your own, either in this child project or at the Enterprise Group level.
+* **Set Up a Test API Reference:** Add an API definition via file or upload from the Editing UI, or use our API Designer (the updated Manual Editor!) to create or edit an API definition. You can also connect your ReadMe project with GitHub via bi-directional sync and sync your API definition that way!
+* **Sync Bidirectionally** One of the biggest updates to ReadMe Refactored is Bi-Directional Sync with GitHub, which allows you to make updates to your docs in ReadMe, GitHub, or both, and changes will always be synced bidirectionally. To get started, head to the Git Connection page in the Settings menu of your Editing UI.
+* **Collaborate via Branches** Now you and your team can make changes to this project without impacting each other's work thanks to Branches! Create a branch off this project's main version or another version that you create, and try creating, editing, merging, and deleting branches.
 
 # 💬 We're Here to Help!
 
