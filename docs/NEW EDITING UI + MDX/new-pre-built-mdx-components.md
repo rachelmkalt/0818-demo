@@ -10,36 +10,24 @@ metadata:
 next:
   description: ''
 ---
-> ✨ Play Around with Pre-Built Components
-> 
-> This page is fully editable for you and your team! Try inserting pre-built components and adding content and Markdown styling, or edit the once below to get a feel for how to use them.
+<Callout icon="✨" theme="default">
+  ### Play Around with Pre-Built Components
+
+  This page is fully editable for you and your team! Try inserting pre-built components and adding content and Markdown styling, or edit the once below to get a feel for how to use them.
+</Callout>
 
 In the ReadMe Editor UI, you can easily add MDX components using slash commands:
 
 1. Type `/` in the editor to open the command menu
 2. Look for the "Component" section in the menu
 3. Select the component you want to use:
-   - `/tabs` - Create tabbed content
-   - `/accordion` - Add expandable sections
-   - `/cards` - Create a card grid layout
-   - `/columns` - Add vertical columns of text
-   - `/mermaid diagram` - Create diagrams and charts with Mermaid.js
+   * `/tabs` - Create tabbed content
+   * `/accordion` - Add expandable sections
+   * `/cards` - Create a card grid layout
+   * `/columns` - Add vertical columns of text
+   * `/mermaid diagram` - Create diagrams and charts with Mermaid.js
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/d8744698615616d821a6fd57fdbf1bc8870e66779f014d88745cd5f9ab6cc9db-CleanShot_2025-06-09_at_15.56.14.gif",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/d8744698615616d821a6fd57fdbf1bc8870e66779f014d88745cd5f9ab6cc9db-CleanShot_2025-06-09_at_15.56.14.gif" />
 
 The component will be inserted with a default structure that you can customize with your content. You can also add the base component to your Custom Components page in either your child project or Enterprise Group and customize further!
 
