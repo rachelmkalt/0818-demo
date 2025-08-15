@@ -24,42 +24,14 @@ Let's start by setting up the basic structure for your API:
 2. Click the **+ Add** button
 3. Select **Start Building** under "Build an API definition from scratch"
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/bc4cc9a8a3ecb04da38f9424ada388c34b52f178c75edaec6e21d238496730e8-APID_1.gif",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/bc4cc9a8a3ecb04da38f9424ada388c34b52f178c75edaec6e21d238496730e8-APID_1.gif" />
 
 4. Enter your API definition details:
-   - **API Title**: Enter a descriptive name (e.g., "Social Media API")
-   - **Target Host URL**: Your API's base URL (e.g., "<http://api.example.com>")
-   - **Authentication Type**: Select your authentication method (None, API Key, Basic, or Bearer)
+   * **API Title**: Enter a descriptive name (e.g., "Social Media API")
+   * **Target Host URL**: Your API's base URL (e.g., "[http://api.example.com](http://api.example.com)")
+   * **Authentication Type**: Select your authentication method (None, API Key, Basic, or Bearer)
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/e5250c5498b535695c3e50dcea092b277dd9b6aff3160e5afd163313b780c436-APID2.gif",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/e5250c5498b535695c3e50dcea092b277dd9b6aff3160e5afd163313b780c436-APID2.gif" />
 
 5. Click **Save** to create your API definition
 
@@ -73,44 +45,16 @@ Let's create an endpoint to retrieve a list of social media posts:
 2. Rename this to better reflect your API structure - let's call it "Posts"
 3. You'll now see this category in your left navigation
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/4d63568ed316deea36ba2b05220e869707851ee5f3364709ceaf2dd7a96d0fe3-APID3.gif",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/4d63568ed316deea36ba2b05220e869707851ee5f3364709ceaf2dd7a96d0fe3-APID3.gif" />
 
 4. Create your GET endpoint for listing posts:
-   - Click on the endpoint to edit it
-   - Change the title to "List Social Media Posts"
-   - Select the **GET** method from the dropdown menu
-   - Set the path to `/posts`
-   - Add a description explaining what the endpoint does (e.g., "Returns a paginated list of social media posts")
+   * Click on the endpoint to edit it
+   * Change the title to "List Social Media Posts"
+   * Select the **GET** method from the dropdown menu
+   * Set the path to `/posts`
+   * Add a description explaining what the endpoint does (e.g., "Returns a paginated list of social media posts")
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/a39fd0ca12dd0c3349cde2b7a24b6fa3157acb04523836e75b275293f4af9ae4-APID_4.gif",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/a39fd0ca12dd0c3349cde2b7a24b6fa3157acb04523836e75b275293f4af9ae4-APID_4.gif" />
 
 ### Adding Query Parameters
 
@@ -118,29 +62,15 @@ Most list endpoints support pagination or filtering. Let's add some query parame
 
 1. Locate the **Query Parameters** section and click the **+** button
 2. Add parameters for pagination:
-   - Add a `page` parameter of type `integer`
-   - Add a `limit` parameter of type `integer`
-   - Add any other filtering parameters (e.g., `category` as a `string`)
+   * Add a `page` parameter of type `integer`
+   * Add a `limit` parameter of type `integer`
+   * Add any other filtering parameters (e.g., `category` as a `string`)
 3. For each parameter:
-   - Add a description
-   - Set whether it's required
-   - Provide a default value if applicable
+   * Add a description
+   * Set whether it's required
+   * Provide a default value if applicable
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/a1ca60d4e1dbf1daf609a2c9f105dd3142f55968e9601dbbf8df10a5bda3b78a-APID_5.gif",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/a1ca60d4e1dbf1daf609a2c9f105dd3142f55968e9601dbbf8df10a5bda3b78a-APID_5.gif" />
 
 ### Adding Example Responses
 
@@ -152,21 +82,7 @@ Now let's add an example response to show developers what to expect:
 4. Add a JSON response example that shows a list of posts with typical fields like IDs, content, timestamps, etc.
 5. You can add multiple response examples for different scenarios
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/cd4bee874e6121586f5c48cde32f860edda6339e933b2179ae3a8f20d2b08943-APID_6.gif",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/cd4bee874e6121586f5c48cde32f860edda6339e933b2179ae3a8f20d2b08943-APID_6.gif" />
 
 ## Creating Your Second Endpoint (Create a Social Media Post)
 
@@ -175,26 +91,12 @@ Now let's add an endpoint for creating new posts:
 1. In the left navigation, click the **+ New Category** button if you need a new category, or use your existing "Posts" category
 2. Click the + icon to add a new endpoint
 3. Set up your POST endpoint:
-   - Title: "Create New Post"
-   - Method: Select **POST** from the dropdown
-   - Path: `/posts`
-   - Description: "Allows authenticated users to create new posts"
+   * Title: "Create New Post"
+   * Method: Select **POST** from the dropdown
+   * Path: `/posts`
+   * Description: "Allows authenticated users to create new posts"
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/724904d3be8adf197ff4f546730cafd78f0da62a42b5e3eda1cfc8815956e3e2-APID_7.gif",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/724904d3be8adf197ff4f546730cafd78f0da62a42b5e3eda1cfc8815956e3e2-APID_7.gif" />
 
 ### Adding Request Body Parameters
 
@@ -203,28 +105,14 @@ For a POST endpoint, you'll need to define the request body:
 1. Locate the **Request Body** section and click to expand it
 2. Set the content type to `object`
 3. Add the required fields:
-   - Add a `content` field of type `string` and mark it as required
-   - Add any additional fields your API accepts (e.g., `image_url`, `tags`)
+   * Add a `content` field of type `string` and mark it as required
+   * Add any additional fields your API accepts (e.g., `image_url`, `tags`)
 4. For each field:
-   - Add a clear description
-   - Mark whether it's required
-   - Provide any constraints (min/max length, pattern, etc.)
+   * Add a clear description
+   * Mark whether it's required
+   * Provide any constraints (min/max length, pattern, etc.)
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/b4383d1a0def59748123b48262d3df72ea33b6f383abb1bfc5d8f8168f25b2e9-APID_8.gif",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/b4383d1a0def59748123b48262d3df72ea33b6f383abb1bfc5d8f8168f25b2e9-APID_8.gif" />
 
 ### Adding Request Code Samples
 
@@ -234,21 +122,7 @@ One of ReadMe's powerful features is automatic code sample generation:
 2. ReadMe automatically generates code examples in multiple languages
 3. You can also click "Write your own static samples" to add custom examples
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/0cb7c46e5dbc5176dd5e547878e6e2ac29cfc832fc3fe3eb4644377e21097fd6-APID_9.gif",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/0cb7c46e5dbc5176dd5e547878e6e2ac29cfc832fc3fe3eb4644377e21097fd6-APID_9.gif" />
 
 ### Adding Example Responses
 
@@ -259,21 +133,7 @@ Finally, add example responses for your POST endpoint:
 3. Provide a JSON example of the created resource
 4. Consider adding additional response examples for errors like `400` (Bad Request) or `401` (Unauthorized)
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/9119e28470b379c3b374a6f0426a58127e117b4ffaf7aa041dc5c8709277646e-APID_10.gif",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/9119e28470b379c3b374a6f0426a58127e117b4ffaf7aa041dc5c8709277646e-APID_10.gif" />
 
 ## Testing Your API Documentation
 
@@ -285,11 +145,11 @@ After creating your endpoints:
 
 ## Tips for Great API Documentation
 
-- **Be thorough with descriptions**: Clearly explain what each endpoint does and why
-- **Provide realistic examples**: Use example data that looks like real-world usage
-- **Document error states**: Include examples of error responses and how to handle them
-- **Use consistent naming**: Maintain a consistent style across all endpoints and parameters
-- **Add "What's Next"**: Use the "What's Next" section to guide users on related endpoints they might need
+* **Be thorough with descriptions**: Clearly explain what each endpoint does and why
+* **Provide realistic examples**: Use example data that looks like real-world usage
+* **Document error states**: Include examples of error responses and how to handle them
+* **Use consistent naming**: Maintain a consistent style across all endpoints and parameters
+* **Add "What's Next"**: Use the "What's Next" section to guide users on related endpoints they might need
 
 By following this guide, you've created a well-documented API reference from scratch using ReadMe's API Designer. Your developers now have interactive, clear documentation that helps them integrate with your API quickly and easily.
 
