@@ -16,19 +16,7 @@ Our bi-directional sync feature allows you to effortlessly connect your document
 
 For a step-by-step walkthrough of getting started with Bi-Directional Sync, we recommend watching this tutorial:
 
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FD_GAl5oYzTA%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DD_GAl5oYzTA&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FD_GAl5oYzTA%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube\" width=\"854\" height=\"480\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/watch?v=D_GAl5oYzTA",
-  "title": "ReadMe Refactored: New Editing UI and Bi-Directional Sync with GitHub",
-  "favicon": "https://www.youtube.com/favicon.ico",
-  "image": "https://i.ytimg.com/vi/D_GAl5oYzTA/hqdefault.jpg",
-  "provider": "https://www.youtube.com/",
-  "href": "https://www.youtube.com/watch?v=D_GAl5oYzTA",
-  "typeOfEmbed": "youtube"
-}
-[/block]
-
+<Embed url="https://www.youtube.com/watch?v=D_GAl5oYzTA" title="ReadMe Refactored: New Editing UI and Bi-Directional Sync with GitHub" favicon="https://www.youtube.com/favicon.ico" image="https://i.ytimg.com/vi/D_GAl5oYzTA/hqdefault.jpg" provider="youtube.com" href="https://www.youtube.com/watch?v=D_GAl5oYzTA" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FD_GAl5oYzTA%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DD_GAl5oYzTA%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FD_GAl5oYzTA%252Fhqdefault.jpg%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
 
 <br />
 
@@ -36,17 +24,17 @@ For a step-by-step walkthrough of getting started with Bi-Directional Sync, we r
 
 Bi-directional sync creates a two-way connection between your ReadMe project and a Git repository. When you make changes in either location:
 
-- Changes made in ReadMe are automatically synced to your Git repository.
-- Changes pushed to your Git repository are automatically reflected in ReadMe.
-- Content stays consistent across both platforms without manual copying or updating.
+* Changes made in ReadMe are automatically synced to your Git repository.
+* Changes pushed to your Git repository are automatically reflected in ReadMe.
+* Content stays consistent across both platforms without manual copying or updating.
 
 ## Key Benefits
 
-- **Write Where You Want**: Give your team the flexibility to work in their preferred environment - whether that's ReadMe's editor UI or their local development setup.
-- **Version Control**: Leverage Git's powerful version control capabilities for your documentation.
-- **Automated Syncing**: Changes sync automatically between platforms, eliminating manual updates.
-- **Collaboration**: Enable developers, engineers, and technical writers to collaborate seamlessly using familiar tools
-- **Single Source of Truth**: Maintain consistency by having documentation synced across platforms.
+* **Write Where You Want**: Give your team the flexibility to work in their preferred environment - whether that's ReadMe's editor UI or their local development setup.
+* **Version Control**: Leverage Git's powerful version control capabilities for your documentation.
+* **Automated Syncing**: Changes sync automatically between platforms, eliminating manual updates.
+* **Collaboration**: Enable developers, engineers, and technical writers to collaborate seamlessly using familiar tools
+* **Single Source of Truth**: Maintain consistency by having documentation synced across platforms.
 
 ## How It Works
 
@@ -61,45 +49,45 @@ Bi-directional sync creates a two-way connection between your ReadMe project and
    └── 📃 sidebar.yml
    ```
 3. **Content Format**:
-   - Documentation pages are stored as Markdown files with frontmatter metadata.
-   - Navigation and page order are managed through `sidebar.yml` files.
-   - Content supports both standard Markdown and ReadMe's enhanced features.
+   * Documentation pages are stored as Markdown files with frontmatter metadata.
+   * Navigation and page order are managed through `sidebar.yml` files.
+   * Content supports both standard Markdown and ReadMe's enhanced features.
 
 ## Git Integration Details
 
 ReadMe integrates through [GitHub Apps](https://docs.github.com/en/apps/overview) to provide:
 
-- Easy installation process
-- Transparent permission management
-- Granular repository access controls
-- Ability to modify or revoke access at any time
+* Easy installation process
+* Transparent permission management
+* Granular repository access controls
+* Ability to modify or revoke access at any time
 
 ### Required Permissions
 
 Repository-level access:
 
-- **Metadata** (Read-only): Required for basic GitHub functionality
-- **Contents** (Read & write): Used to sync documentation content
+* **Metadata** (Read-only): Required for basic GitHub functionality
+* **Contents** (Read & write): Used to sync documentation content
 
 The integration uses webhooks to:
 
-- Detect changes in either platform
-- Trigger sync operations
-- Maintain content consistency
-- Handle conflict resolution
+* Detect changes in either platform
+* Trigger sync operations
+* Maintain content consistency
+* Handle conflict resolution
 
 ## Versioning Support
 
 Documentation versions are handled through Git branches:
 
-- Default branch represents your main documentation version
-- Additional branches can be created for other versions
-- Version metadata (public/deprecated status) is managed in ReadMe
+* Default branch represents your main documentation version
+* Additional branches can be created for other versions
+* Version metadata (public/deprecated status) is managed in ReadMe
 
 ## Getting Started
 
 > 🚧 Empty Git repository required
-> 
+>
 > To successfully connect your ReadMe project, your new Git repository must be **completely empty** — including no commit history and no files such as a README.md. After you've connected, removing and adding files will work as usual.
 
 To begin using bi-directional sync:
