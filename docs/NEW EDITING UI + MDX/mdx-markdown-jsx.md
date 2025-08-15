@@ -16,21 +16,7 @@ As part of the upgrade to ReadMe Refactored, we also migrated ReadMe's entire ed
 
 Here's an example of a component built using MDX:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/53e6b26f9e793c6940faf66a830c1af2f592620934954de384e4eec3000c157d-stepper_preview_for_blog_post.gif",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/53e6b26f9e793c6940faf66a830c1af2f592620934954de384e4eec3000c157d-stepper_preview_for_blog_post.gif" />
 
 ## What is MDX?
 
@@ -42,27 +28,27 @@ ReadMe’s Custom Components feature also has built-in Tailwind CSS styling supp
 
 MDX extends traditional Markdown by enabling you to:
 
-- Import and use React components in your documentation
-- Create interactive documentation elements
-- Build reusable custom components
-- Enhance your docs with dynamic features
+* Import and use React components in your documentation
+* Create interactive documentation elements
+* Build reusable custom components
+* Enhance your docs with dynamic features
 
 ## Why Use MDX?
 
 ### Enhanced Creativity
 
-- Add interactive components to explain complex concepts
-- Create custom behaviors for your documentation
-- Build dynamic examples and demonstrations
+* Add interactive components to explain complex concepts
+* Create custom behaviors for your documentation
+* Build dynamic examples and demonstrations
 
 ### Improved Reusability
 
-- Write components once, use them throughout your docs
-- Maintain consistency across your documentation
-- Update shared components in one place
+* Write components once, use them throughout your docs
+* Maintain consistency across your documentation
+* Update shared components in one place
 
 ### Future-Proof Documentation
 
-- Scale your documentation with your product
-- Add new interactive features as needed
-- Maintain modern, dynamic documentation
+* Scale your documentation with your product
+* Add new interactive features as needed
+* Maintain modern, dynamic documentation
