@@ -18,6 +18,8 @@ next:
 
 Ready to start editing with bi-directional sync? Whether you're making quick updates in ReadMe's intuitive editor or pushing changes through Git, bi-directional sync keeps everything in perfect harmony. Your edits in ReadMe automatically flow to your GitHub repository, and any changes you commit to GitHub appear right in your ReadMe hub. Don't worry about version conflicts or maintaining multiple copies – bi-directional sync handles the heavy lifting, so you can focus on creating great documentation wherever you prefer to work.
 
+I'm editing this live!
+
 ## Setting Up Bi-Directional Sync
 
 ### Prerequisites
