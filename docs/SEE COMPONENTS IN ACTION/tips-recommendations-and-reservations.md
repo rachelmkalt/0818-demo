@@ -48,3 +48,15 @@ metadata:
 <Accordion title="Sneakers Encouraged" icon="fa-info-circle">
   We recommend wearing comfortable shoes to any of Owlbert's Journeys!
 </Accordion>
+
+## What's Next?
+
+```mermaid
+flowchart TD
+    Interactive[Interactive Tours Coming Soon] --> Domestic[Domestic]
+    Interactive --> International[International]
+    Domestic[Domestic] --> Austin[Austin]
+    Domestic[Domestic] --> Charleston[Charleston]
+    International --> Rome
+    International --> Tokyo
+```
