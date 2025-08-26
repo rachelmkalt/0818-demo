@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-Our new Editing UI  brings all docs editing to your live hub, allowing Admins of your team to make edits directly in your docs and easily preview content and appearance changes before they go live.
+Our new Editing UI  brings all docs editing to your live hub, allowing Admins of your team to make edits directly in your docs and easily preview content and appearance changes before they go live. Here's another edit!
 
 <Image align="center" src="https://files.readme.io/47a91593afec9ae462ba7b0cb43a8ac367a604cd03d21470bb25ba5f3c0dd666-demo-ui_2.gif" />
 
