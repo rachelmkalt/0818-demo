@@ -16,6 +16,8 @@ Welcome to your ReadMe Refactored playground! :owlbert:
 
 The ReadMe Refactored experience represents the future of ReadMe, and includes upgrades to almost every aspect of the product. We're so excited for you to start exploring this new experience, and hopefully making the decision to upgrade your production environment to Refactored soon. :sparkles:
 
+Hello Impact team!
+
 # :mag: Explore Refactored
 
 On the following Guides pages you'll find overviews on Refactored's core new features, including the Editing UI, our MDX-powered editor and Custom Components functionality, Bi-Directional Sync with GitHub, and Branches.
