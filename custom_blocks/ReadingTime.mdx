@@ -1,0 +1,41 @@
+---
+name: ReadingTime
+---
+import { useEffect, useState } from 'react';
+
+export const ReadingTimeComponent = () => {
+  function estimateReadingTime(rootElement, wordsPerMinute = 200) {
+    if (!rootElement) return 0;
+
+    // Get all text nodes in readable elements
+    const readableTags = ['P', 'SPAN', 'LI', 'DIV', 'ARTICLE', 'SECTION', 'H1', 'H2', 'H3', 'H4', 'H5', 'H6'];
+    let totalWords = 0;
+
+    function countWords(node) {
+        if (node.nodeType === Node.TEXT_NODE) {
+            const text = node.textContent.trim();
+            totalWords += text.split(/\s+/).filter(word => word.length > 0).length;
+        } else if (node.nodeType === Node.ELEMENT_NODE && readableTags.includes(node.tagName)) {
+            for (let child of node.childNodes) {
+                countWords(child);
+            }
+        }
+    }
+
+    countWords(rootElement);
+
+    // Estimate reading time in minutes
+    const estimatedMinutes = totalWords / wordsPerMinute;
+    return Math.ceil(estimatedMinutes); // Rounds up to the nearest minute
+}
+  const [readingTime, setReadingTime] = useState();
+  
+  useEffect(() => {
+    const time = estimateReadingTime(document.querySelector('.rm-Article'));
+ 	  setReadingTime(time);
+  }, []);
+  
+  return <p className="border text-xs rounded p-2 inline-block" style={{borderColor:'var(--color-border-default)'}}>⏳ <strong>Reading Time:</strong> {readingTime ?? '--'} minutes</p>;
+};
+
+<ReadingTimeComponent />
