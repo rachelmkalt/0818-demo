@@ -29,11 +29,31 @@ You can keep reading to learn more about Owlbert and the kinds of journeys he of
   </Card>
 </Cards>
 
+<Cards columns={4}>
+  <Card title="Hello first card!" href="https://readme.com" icon="fa-home" target="_blank">
+    Neque porro quisquam est qui dolorem ipsum quia
+  </Card>
+
+  <Card title="Second Card" icon="fa-user">
+    *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
+  </Card>
+
+  <Card title="Third Card" icon="fa-star">
+    > Ut enim ad minim veniam, quis nostrud ullamco
+  </Card>
+
+  <Card title="Fourth Card" icon="fa-question">
+    **Excepteur sint occaecat cupidatat non proident**
+  </Card>
+</Cards>
+
 Anything that's available as an offline audio guide will be <Highlight>highlighted in blue</Highlight> across Owlbert's Journeys API documentation, while anything that can be downloaded as transcript for reading is <Highlight color="lightgreen">highlighted in light green.</Highlight>
 
 # Take Owlbert in Your Pocket
 
 Well, not really...but sort of! Connect your app to Owlbert Journey via our API to get Owlbert's personalized tips, hidden facts, and audio and video recordings to help personalize your trip in many major cities throughout the U.S. and cities abroad too.
+
+<br />
 
 <Image align="center" className="border" border={true} width="30% " src="https://files.readme.io/f731c62-Sports.psd.png" />
 
