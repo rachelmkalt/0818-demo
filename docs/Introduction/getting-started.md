@@ -18,6 +18,8 @@ The ReadMe Refactored experience represents the future of ReadMe, and includes u
 
 Hello Impact team!
 
+Let's create a branch!
+
 # :mag: Explore Refactored
 
 On the following Guides pages you'll find overviews on Refactored's core new features, including the Editing UI, our MDX-powered editor and Custom Components functionality, Bi-Directional Sync with GitHub, and Branches.
